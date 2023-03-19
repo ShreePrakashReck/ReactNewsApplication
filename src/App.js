@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Counter from "./components/Counter";
+import Fruits from "./components/Fruits";
+import Notes from "./components/Notes";
+import Hooks from "./froms-hooks/Hooks";
+import UseEffectHooks from "./froms-hooks/UseEffectHooks";
+import Userfroms from "./froms-hooks/Userfroms";
+import NewsApp from "./froms-hooks/NewsApp";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <NewsApp />
     </div>
   );
 }
 
 export default App;
+//<Hooks />
+//<UseEffectHooks />
+//<Userfroms />
+//<Fruits />
+//<Notes />
+//<Counter />
